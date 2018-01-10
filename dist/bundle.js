@@ -60,163 +60,14 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 58);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_date_fns__ = __webpack_require__(180);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_date_fns___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_date_fns__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__todo_js__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__project_js__ = __webpack_require__(283);
-
-
-
-
-
-const container = document.querySelector('.container');
-
-let x = new __WEBPACK_IMPORTED_MODULE_1__todo_js__["a" /* ToDo */]("Take out the Garbage", "Important task that just needs to get done.", "11/11/2018", "5");
-let z = new __WEBPACK_IMPORTED_MODULE_1__todo_js__["a" /* ToDo */]("Vacuum", "Slightly less important, multiple times maybe.", "06/03/2018", "3");
-let y = new __WEBPACK_IMPORTED_MODULE_2__project_js__["a" /* Project */]("House Duties");
-
-y.addToDo(x);
-y.addToDo(z);
-
-container.appendChild(y.generateDOMItem());
-
-
-/***/ }),
-/* 1 */,
-/* 2 */,
-/* 3 */,
-/* 4 */,
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */,
-/* 9 */,
-/* 10 */,
-/* 11 */,
-/* 12 */,
-/* 13 */,
-/* 14 */,
-/* 15 */,
-/* 16 */,
-/* 17 */,
-/* 18 */,
-/* 19 */,
-/* 20 */,
-/* 21 */,
-/* 22 */,
-/* 23 */,
-/* 24 */,
-/* 25 */,
-/* 26 */,
-/* 27 */,
-/* 28 */,
-/* 29 */,
-/* 30 */,
-/* 31 */,
-/* 32 */,
-/* 33 */,
-/* 34 */,
-/* 35 */,
-/* 36 */,
-/* 37 */,
-/* 38 */,
-/* 39 */,
-/* 40 */,
-/* 41 */,
-/* 42 */,
-/* 43 */,
-/* 44 */,
-/* 45 */,
-/* 46 */,
-/* 47 */,
-/* 48 */,
-/* 49 */,
-/* 50 */,
-/* 51 */,
-/* 52 */,
-/* 53 */,
-/* 54 */,
-/* 55 */,
-/* 56 */,
-/* 57 */,
-/* 58 */,
-/* 59 */,
-/* 60 */,
-/* 61 */,
-/* 62 */,
-/* 63 */,
-/* 64 */,
-/* 65 */,
-/* 66 */,
-/* 67 */,
-/* 68 */,
-/* 69 */,
-/* 70 */,
-/* 71 */,
-/* 72 */,
-/* 73 */,
-/* 74 */,
-/* 75 */,
-/* 76 */,
-/* 77 */,
-/* 78 */,
-/* 79 */,
-/* 80 */,
-/* 81 */,
-/* 82 */,
-/* 83 */,
-/* 84 */,
-/* 85 */,
-/* 86 */,
-/* 87 */,
-/* 88 */,
-/* 89 */,
-/* 90 */,
-/* 91 */,
-/* 92 */,
-/* 93 */,
-/* 94 */,
-/* 95 */,
-/* 96 */,
-/* 97 */,
-/* 98 */,
-/* 99 */,
-/* 100 */,
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
-/* 107 */,
-/* 108 */,
-/* 109 */,
-/* 110 */,
-/* 111 */,
-/* 112 */,
-/* 113 */,
-/* 114 */,
-/* 115 */,
-/* 116 */,
-/* 117 */,
-/* 118 */,
-/* 119 */,
-/* 120 */,
-/* 121 */,
-/* 122 */,
-/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isDate = __webpack_require__(135)
+var isDate = __webpack_require__(12)
 
 var MILLISECONDS_IN_HOUR = 3600000
 var MILLISECONDS_IN_MINUTE = 60000
@@ -539,11 +390,11 @@ module.exports = parse
 
 
 /***/ }),
-/* 124 */
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var startOfISOWeek = __webpack_require__(125)
+var parse = __webpack_require__(0)
+var startOfISOWeek = __webpack_require__(2)
 
 /**
  * @category ISO Week-Numbering Year Helpers
@@ -590,10 +441,10 @@ module.exports = getISOYear
 
 
 /***/ }),
-/* 125 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfWeek = __webpack_require__(131)
+var startOfWeek = __webpack_require__(8)
 
 /**
  * @category ISO Week Helpers
@@ -621,10 +472,10 @@ module.exports = startOfISOWeek
 
 
 /***/ }),
-/* 126 */
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Day Helpers
@@ -652,10 +503,10 @@ module.exports = startOfDay
 
 
 /***/ }),
-/* 127 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Day Helpers
@@ -684,10 +535,10 @@ module.exports = addDays
 
 
 /***/ }),
-/* 128 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Millisecond Helpers
@@ -715,11 +566,11 @@ module.exports = addMilliseconds
 
 
 /***/ }),
-/* 129 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getISOYear = __webpack_require__(124)
-var startOfISOWeek = __webpack_require__(125)
+var getISOYear = __webpack_require__(1)
+var startOfISOWeek = __webpack_require__(2)
 
 /**
  * @category ISO Week-Numbering Year Helpers
@@ -753,10 +604,10 @@ module.exports = startOfISOYear
 
 
 /***/ }),
-/* 130 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Common Helpers
@@ -810,10 +661,10 @@ module.exports = compareAsc
 
 
 /***/ }),
-/* 131 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Week Helpers
@@ -854,10 +705,10 @@ module.exports = startOfWeek
 
 
 /***/ }),
-/* 132 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfDay = __webpack_require__(126)
+var startOfDay = __webpack_require__(3)
 
 var MILLISECONDS_IN_MINUTE = 60000
 var MILLISECONDS_IN_DAY = 86400000
@@ -901,11 +752,11 @@ module.exports = differenceInCalendarDays
 
 
 /***/ }),
-/* 133 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var getDaysInMonth = __webpack_require__(136)
+var parse = __webpack_require__(0)
+var getDaysInMonth = __webpack_require__(13)
 
 /**
  * @category Month Helpers
@@ -941,10 +792,10 @@ module.exports = addMonths
 
 
 /***/ }),
-/* 134 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Millisecond Helpers
@@ -976,7 +827,7 @@ module.exports = differenceInMilliseconds
 
 
 /***/ }),
-/* 135 */
+/* 12 */
 /***/ (function(module, exports) {
 
 /**
@@ -1002,10 +853,10 @@ module.exports = isDate
 
 
 /***/ }),
-/* 136 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Month Helpers
@@ -1036,10 +887,10 @@ module.exports = getDaysInMonth
 
 
 /***/ }),
-/* 137 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addDays = __webpack_require__(127)
+var addDays = __webpack_require__(4)
 
 /**
  * @category Week Helpers
@@ -1067,10 +918,10 @@ module.exports = addWeeks
 
 
 /***/ }),
-/* 138 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Common Helpers
@@ -1124,12 +975,12 @@ module.exports = compareDesc
 
 
 /***/ }),
-/* 139 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var differenceInCalendarMonths = __webpack_require__(153)
-var compareAsc = __webpack_require__(130)
+var parse = __webpack_require__(0)
+var differenceInCalendarMonths = __webpack_require__(30)
+var compareAsc = __webpack_require__(7)
 
 /**
  * @category Month Helpers
@@ -1168,10 +1019,10 @@ module.exports = differenceInMonths
 
 
 /***/ }),
-/* 140 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var differenceInMilliseconds = __webpack_require__(134)
+var differenceInMilliseconds = __webpack_require__(11)
 
 /**
  * @category Second Helpers
@@ -1202,11 +1053,11 @@ module.exports = differenceInSeconds
 
 
 /***/ }),
-/* 141 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var buildDistanceInWordsLocale = __webpack_require__(193)
-var buildFormatLocale = __webpack_require__(194)
+var buildDistanceInWordsLocale = __webpack_require__(72)
+var buildFormatLocale = __webpack_require__(73)
 
 /**
  * @category Locales
@@ -1219,10 +1070,10 @@ module.exports = {
 
 
 /***/ }),
-/* 142 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Day Helpers
@@ -1250,12 +1101,12 @@ module.exports = endOfDay
 
 
 /***/ }),
-/* 143 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var startOfISOWeek = __webpack_require__(125)
-var startOfISOYear = __webpack_require__(129)
+var parse = __webpack_require__(0)
+var startOfISOWeek = __webpack_require__(2)
+var startOfISOYear = __webpack_require__(6)
 
 var MILLISECONDS_IN_WEEK = 604800000
 
@@ -1290,10 +1141,10 @@ module.exports = getISOWeek
 
 
 /***/ }),
-/* 144 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfWeek = __webpack_require__(131)
+var startOfWeek = __webpack_require__(8)
 
 /**
  * @category Week Helpers
@@ -1337,10 +1188,10 @@ module.exports = isSameWeek
 
 
 /***/ }),
-/* 145 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addMilliseconds = __webpack_require__(128)
+var addMilliseconds = __webpack_require__(5)
 
 var MILLISECONDS_IN_HOUR = 3600000
 
@@ -1369,11 +1220,11 @@ module.exports = addHours
 
 
 /***/ }),
-/* 146 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getISOYear = __webpack_require__(124)
-var setISOYear = __webpack_require__(147)
+var getISOYear = __webpack_require__(1)
+var setISOYear = __webpack_require__(24)
 
 /**
  * @category ISO Week-Numbering Year Helpers
@@ -1402,12 +1253,12 @@ module.exports = addISOYears
 
 
 /***/ }),
-/* 147 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var startOfISOYear = __webpack_require__(129)
-var differenceInCalendarDays = __webpack_require__(132)
+var parse = __webpack_require__(0)
+var startOfISOYear = __webpack_require__(6)
+var differenceInCalendarDays = __webpack_require__(9)
 
 /**
  * @category ISO Week-Numbering Year Helpers
@@ -1444,10 +1295,10 @@ module.exports = setISOYear
 
 
 /***/ }),
-/* 148 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addMilliseconds = __webpack_require__(128)
+var addMilliseconds = __webpack_require__(5)
 
 var MILLISECONDS_IN_MINUTE = 60000
 
@@ -1476,10 +1327,10 @@ module.exports = addMinutes
 
 
 /***/ }),
-/* 149 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addMonths = __webpack_require__(133)
+var addMonths = __webpack_require__(10)
 
 /**
  * @category Quarter Helpers
@@ -1507,10 +1358,10 @@ module.exports = addQuarters
 
 
 /***/ }),
-/* 150 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addMilliseconds = __webpack_require__(128)
+var addMilliseconds = __webpack_require__(5)
 
 /**
  * @category Second Helpers
@@ -1537,10 +1388,10 @@ module.exports = addSeconds
 
 
 /***/ }),
-/* 151 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addMonths = __webpack_require__(133)
+var addMonths = __webpack_require__(10)
 
 /**
  * @category Year Helpers
@@ -1567,10 +1418,10 @@ module.exports = addYears
 
 
 /***/ }),
-/* 152 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getISOYear = __webpack_require__(124)
+var getISOYear = __webpack_require__(1)
 
 /**
  * @category ISO Week-Numbering Year Helpers
@@ -1601,10 +1452,10 @@ module.exports = differenceInCalendarISOYears
 
 
 /***/ }),
-/* 153 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Month Helpers
@@ -1639,10 +1490,10 @@ module.exports = differenceInCalendarMonths
 
 
 /***/ }),
-/* 154 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Quarter Helpers
@@ -1669,10 +1520,10 @@ module.exports = getQuarter
 
 
 /***/ }),
-/* 155 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Year Helpers
@@ -1704,12 +1555,12 @@ module.exports = differenceInCalendarYears
 
 
 /***/ }),
-/* 156 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var differenceInCalendarDays = __webpack_require__(132)
-var compareAsc = __webpack_require__(130)
+var parse = __webpack_require__(0)
+var differenceInCalendarDays = __webpack_require__(9)
+var compareAsc = __webpack_require__(7)
 
 /**
  * @category Day Helpers
@@ -1749,10 +1600,10 @@ module.exports = differenceInDays
 
 
 /***/ }),
-/* 157 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addISOYears = __webpack_require__(146)
+var addISOYears = __webpack_require__(23)
 
 /**
  * @category ISO Week-Numbering Year Helpers
@@ -1781,14 +1632,14 @@ module.exports = subISOYears
 
 
 /***/ }),
-/* 158 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var compareDesc = __webpack_require__(138)
-var parse = __webpack_require__(123)
-var differenceInSeconds = __webpack_require__(140)
-var differenceInMonths = __webpack_require__(139)
-var enLocale = __webpack_require__(141)
+var compareDesc = __webpack_require__(15)
+var parse = __webpack_require__(0)
+var differenceInSeconds = __webpack_require__(17)
+var differenceInMonths = __webpack_require__(16)
+var enLocale = __webpack_require__(18)
 
 var MINUTES_IN_DAY = 1440
 var MINUTES_IN_ALMOST_TWO_DAYS = 2520
@@ -1990,10 +1841,10 @@ module.exports = distanceInWords
 
 
 /***/ }),
-/* 159 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Week Helpers
@@ -2034,10 +1885,10 @@ module.exports = endOfWeek
 
 
 /***/ }),
-/* 160 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Month Helpers
@@ -2067,12 +1918,12 @@ module.exports = endOfMonth
 
 
 /***/ }),
-/* 161 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var startOfYear = __webpack_require__(162)
-var differenceInCalendarDays = __webpack_require__(132)
+var parse = __webpack_require__(0)
+var startOfYear = __webpack_require__(39)
+var differenceInCalendarDays = __webpack_require__(9)
 
 /**
  * @category Day Helpers
@@ -2100,10 +1951,10 @@ module.exports = getDayOfYear
 
 
 /***/ }),
-/* 162 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Year Helpers
@@ -2133,10 +1984,10 @@ module.exports = startOfYear
 
 
 /***/ }),
-/* 163 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isDate = __webpack_require__(135)
+var isDate = __webpack_require__(12)
 
 /**
  * @category Common Helpers
@@ -2174,10 +2025,10 @@ module.exports = isValid
 
 
 /***/ }),
-/* 164 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Year Helpers
@@ -2204,10 +2055,10 @@ module.exports = isLeapYear
 
 
 /***/ }),
-/* 165 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Weekday Helpers
@@ -2242,10 +2093,10 @@ module.exports = getISODay
 
 
 /***/ }),
-/* 166 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfHour = __webpack_require__(167)
+var startOfHour = __webpack_require__(44)
 
 /**
  * @category Hour Helpers
@@ -2277,10 +2128,10 @@ module.exports = isSameHour
 
 
 /***/ }),
-/* 167 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Hour Helpers
@@ -2308,10 +2159,10 @@ module.exports = startOfHour
 
 
 /***/ }),
-/* 168 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isSameWeek = __webpack_require__(144)
+var isSameWeek = __webpack_require__(21)
 
 /**
  * @category ISO Week Helpers
@@ -2342,10 +2193,10 @@ module.exports = isSameISOWeek
 
 
 /***/ }),
-/* 169 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfISOYear = __webpack_require__(129)
+var startOfISOYear = __webpack_require__(6)
 
 /**
  * @category ISO Week-Numbering Year Helpers
@@ -2379,10 +2230,10 @@ module.exports = isSameISOYear
 
 
 /***/ }),
-/* 170 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfMinute = __webpack_require__(171)
+var startOfMinute = __webpack_require__(48)
 
 /**
  * @category Minute Helpers
@@ -2415,10 +2266,10 @@ module.exports = isSameMinute
 
 
 /***/ }),
-/* 171 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Minute Helpers
@@ -2446,10 +2297,10 @@ module.exports = startOfMinute
 
 
 /***/ }),
-/* 172 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Month Helpers
@@ -2481,10 +2332,10 @@ module.exports = isSameMonth
 
 
 /***/ }),
-/* 173 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfQuarter = __webpack_require__(174)
+var startOfQuarter = __webpack_require__(51)
 
 /**
  * @category Quarter Helpers
@@ -2516,10 +2367,10 @@ module.exports = isSameQuarter
 
 
 /***/ }),
-/* 174 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Quarter Helpers
@@ -2550,10 +2401,10 @@ module.exports = startOfQuarter
 
 
 /***/ }),
-/* 175 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfSecond = __webpack_require__(176)
+var startOfSecond = __webpack_require__(53)
 
 /**
  * @category Second Helpers
@@ -2586,10 +2437,10 @@ module.exports = isSameSecond
 
 
 /***/ }),
-/* 176 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Second Helpers
@@ -2617,10 +2468,10 @@ module.exports = startOfSecond
 
 
 /***/ }),
-/* 177 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Year Helpers
@@ -2651,10 +2502,10 @@ module.exports = isSameYear
 
 
 /***/ }),
-/* 178 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Week Helpers
@@ -2695,11 +2546,11 @@ module.exports = lastDayOfWeek
 
 
 /***/ }),
-/* 179 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var getDaysInMonth = __webpack_require__(136)
+var parse = __webpack_require__(0)
+var getDaysInMonth = __webpack_require__(13)
 
 /**
  * @category Month Helpers
@@ -2737,172 +2588,335 @@ module.exports = setMonth
 
 
 /***/ }),
-/* 180 */
+/* 57 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export testFunction */
+function testFunction(){
+  console.log("dope man");
+}
+
+class ToDo {
+  constructor(id, title, description, dueDate, priority) {
+    this.id = id;
+    this.title = title;
+    this.description = description;
+    this.dueDate = dueDate;
+    this.priority = priority;
+    this.completed = false;
+  }
+
+  complete() {
+    if (!this.completed) {
+      this.completed = true;
+    }
+  }
+
+  uncomplete() {
+    if (this.completed) {
+      this.completed = false;
+    }
+  }
+
+  generateDOMItem() {
+    const item = document.createElement('div');
+    item.classList.add('todo');
+
+    const title = document.createElement('h4');
+    item.appendChild(title);
+    title.textContent = this.title;
+
+    const dueDate = document.createElement('h5');
+    item.appendChild(dueDate);
+    dueDate.textContent = this.dueDate;
+
+    const details = document.createElement('div');
+    details.classList.add('details');
+    item.appendChild(details);
+    details.textContent = this.details;
+
+    const description = document.createElement('p');
+    details.appendChild(description);
+    description.textContent = this.description;
+
+    const deleteButton = document.createElement('button');
+    deleteButton.classList.add('delete');
+    deleteButton.textContent = "Delete";
+    details.appendChild(deleteButton);
+
+    const toggleComplete = document.createElement('button');
+    if (!this.completed){
+      toggleComplete.classList.add('incomplete');
+      toggleComplete.textContent = "Click to Complete";
+      details.appendChild(toggleComplete);
+    } else if (this.completed) {
+      toggleComplete.classList.add('complete');
+      toggleComplete.textContent = "Click to make Incomplete";
+      details.appendChild(toggleComplete);
+    }
+
+    return item;
+  }
+
+
+
+
+
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = ToDo;
+
+
+
+/***/ }),
+/* 58 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_date_fns__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_date_fns___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_date_fns__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__todo_js__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__project_js__ = __webpack_require__(161);
+
+
+
+
+
+const container = document.querySelector('.container');
+
+let x = new __WEBPACK_IMPORTED_MODULE_1__todo_js__["a" /* ToDo */](1, "Take out the Garbage", "Important task that just needs to get done.", "11/11/2018", "5");
+let y = new __WEBPACK_IMPORTED_MODULE_1__todo_js__["a" /* ToDo */](2, "Vacuum", "Slightly less important, multiple times maybe.", "06/03/2018", "3");
+let z = new __WEBPACK_IMPORTED_MODULE_2__project_js__["a" /* Project */](1, "House Duties");
+x.complete();
+z.addToDo(x);
+z.addToDo(y);
+
+let m = new __WEBPACK_IMPORTED_MODULE_1__todo_js__["a" /* ToDo */](1, "NFL Site", "Send out new lines", "01/10/2018", "5");
+let n = new __WEBPACK_IMPORTED_MODULE_1__todo_js__["a" /* ToDo */](2, "Javascript", "Work on the to do list project.", "01/20/2018", "3");
+let p = new __WEBPACK_IMPORTED_MODULE_2__project_js__["a" /* Project */](2, "Programming");
+p.addToDo(m);
+p.addToDo(n);
+
+
+const projects = [];
+projects.push(z);
+projects.push(p);
+
+const select = document.getElementById("selectProject");
+
+function loadPage(projects){
+  container.appendChild(projects[0].generateDOMItem());
+  refreshSelect(select, projects)
+}
+
+loadPage(projects);
+
+
+function refreshSelect(selectElement,projectArray){
+  selectElement.innerHTML = "";
+  for(let i=0; i < projectArray.length;i++){
+    let opt = projects[i];
+    let el = document.createElement("option");
+    el.textContent = opt.name;
+    el.value = opt.id;
+    select.appendChild(el);
+  }
+
+  select.onchange = function() {
+    let x = document.getElementById("selectProject").value;
+    const container = document.querySelector(".container");
+    container.innerHTML = "";
+    container.appendChild(projects[x-1].generateDOMItem());
+  }
+
+}
+
+
+function addProject(newProject, projectArray){
+  projectArray.push(newProject);
+  refreshSelect(select, projectArray);
+}
+
+
+projectForm.addEventListener('submit', function(e){
+  e.preventDefault();
+  let newProject = new __WEBPACK_IMPORTED_MODULE_2__project_js__["a" /* Project */](
+    projects.length,
+    this.elements.name.value
+   )
+   addProject(newProject, projects);
+   document.getElementById('projectForm').reset();
+})
+
+
+/***/ }),
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  addDays: __webpack_require__(127),
-  addHours: __webpack_require__(145),
-  addISOYears: __webpack_require__(146),
-  addMilliseconds: __webpack_require__(128),
-  addMinutes: __webpack_require__(148),
-  addMonths: __webpack_require__(133),
-  addQuarters: __webpack_require__(149),
-  addSeconds: __webpack_require__(150),
-  addWeeks: __webpack_require__(137),
-  addYears: __webpack_require__(151),
-  areRangesOverlapping: __webpack_require__(181),
-  closestIndexTo: __webpack_require__(182),
-  closestTo: __webpack_require__(183),
-  compareAsc: __webpack_require__(130),
-  compareDesc: __webpack_require__(138),
-  differenceInCalendarDays: __webpack_require__(132),
-  differenceInCalendarISOWeeks: __webpack_require__(184),
-  differenceInCalendarISOYears: __webpack_require__(152),
-  differenceInCalendarMonths: __webpack_require__(153),
-  differenceInCalendarQuarters: __webpack_require__(185),
-  differenceInCalendarWeeks: __webpack_require__(186),
-  differenceInCalendarYears: __webpack_require__(155),
-  differenceInDays: __webpack_require__(156),
-  differenceInHours: __webpack_require__(187),
-  differenceInISOYears: __webpack_require__(188),
-  differenceInMilliseconds: __webpack_require__(134),
-  differenceInMinutes: __webpack_require__(189),
-  differenceInMonths: __webpack_require__(139),
-  differenceInQuarters: __webpack_require__(190),
-  differenceInSeconds: __webpack_require__(140),
-  differenceInWeeks: __webpack_require__(191),
-  differenceInYears: __webpack_require__(192),
-  distanceInWords: __webpack_require__(158),
-  distanceInWordsStrict: __webpack_require__(196),
-  distanceInWordsToNow: __webpack_require__(197),
-  eachDay: __webpack_require__(198),
-  endOfDay: __webpack_require__(142),
-  endOfHour: __webpack_require__(199),
-  endOfISOWeek: __webpack_require__(200),
-  endOfISOYear: __webpack_require__(201),
-  endOfMinute: __webpack_require__(202),
-  endOfMonth: __webpack_require__(160),
-  endOfQuarter: __webpack_require__(203),
-  endOfSecond: __webpack_require__(204),
-  endOfToday: __webpack_require__(205),
-  endOfTomorrow: __webpack_require__(206),
-  endOfWeek: __webpack_require__(159),
-  endOfYear: __webpack_require__(207),
-  endOfYesterday: __webpack_require__(208),
-  format: __webpack_require__(209),
-  getDate: __webpack_require__(210),
-  getDay: __webpack_require__(211),
-  getDayOfYear: __webpack_require__(161),
-  getDaysInMonth: __webpack_require__(136),
-  getDaysInYear: __webpack_require__(212),
-  getHours: __webpack_require__(213),
-  getISODay: __webpack_require__(165),
-  getISOWeek: __webpack_require__(143),
-  getISOWeeksInYear: __webpack_require__(214),
-  getISOYear: __webpack_require__(124),
-  getMilliseconds: __webpack_require__(215),
-  getMinutes: __webpack_require__(216),
-  getMonth: __webpack_require__(217),
-  getOverlappingDaysInRanges: __webpack_require__(218),
-  getQuarter: __webpack_require__(154),
-  getSeconds: __webpack_require__(219),
-  getTime: __webpack_require__(220),
-  getYear: __webpack_require__(221),
-  isAfter: __webpack_require__(222),
-  isBefore: __webpack_require__(223),
-  isDate: __webpack_require__(135),
-  isEqual: __webpack_require__(224),
-  isFirstDayOfMonth: __webpack_require__(225),
-  isFriday: __webpack_require__(226),
-  isFuture: __webpack_require__(227),
-  isLastDayOfMonth: __webpack_require__(228),
-  isLeapYear: __webpack_require__(164),
-  isMonday: __webpack_require__(229),
-  isPast: __webpack_require__(230),
-  isSameDay: __webpack_require__(231),
-  isSameHour: __webpack_require__(166),
-  isSameISOWeek: __webpack_require__(168),
-  isSameISOYear: __webpack_require__(169),
-  isSameMinute: __webpack_require__(170),
-  isSameMonth: __webpack_require__(172),
-  isSameQuarter: __webpack_require__(173),
-  isSameSecond: __webpack_require__(175),
-  isSameWeek: __webpack_require__(144),
-  isSameYear: __webpack_require__(177),
-  isSaturday: __webpack_require__(232),
-  isSunday: __webpack_require__(233),
-  isThisHour: __webpack_require__(234),
-  isThisISOWeek: __webpack_require__(235),
-  isThisISOYear: __webpack_require__(236),
-  isThisMinute: __webpack_require__(237),
-  isThisMonth: __webpack_require__(238),
-  isThisQuarter: __webpack_require__(239),
-  isThisSecond: __webpack_require__(240),
-  isThisWeek: __webpack_require__(241),
-  isThisYear: __webpack_require__(242),
-  isThursday: __webpack_require__(243),
-  isToday: __webpack_require__(244),
-  isTomorrow: __webpack_require__(245),
-  isTuesday: __webpack_require__(246),
-  isValid: __webpack_require__(163),
-  isWednesday: __webpack_require__(247),
-  isWeekend: __webpack_require__(248),
-  isWithinRange: __webpack_require__(249),
-  isYesterday: __webpack_require__(250),
-  lastDayOfISOWeek: __webpack_require__(251),
-  lastDayOfISOYear: __webpack_require__(252),
-  lastDayOfMonth: __webpack_require__(253),
-  lastDayOfQuarter: __webpack_require__(254),
-  lastDayOfWeek: __webpack_require__(178),
-  lastDayOfYear: __webpack_require__(255),
-  max: __webpack_require__(256),
-  min: __webpack_require__(257),
-  parse: __webpack_require__(123),
-  setDate: __webpack_require__(258),
-  setDay: __webpack_require__(259),
-  setDayOfYear: __webpack_require__(260),
-  setHours: __webpack_require__(261),
-  setISODay: __webpack_require__(262),
-  setISOWeek: __webpack_require__(263),
-  setISOYear: __webpack_require__(147),
-  setMilliseconds: __webpack_require__(264),
-  setMinutes: __webpack_require__(265),
-  setMonth: __webpack_require__(179),
-  setQuarter: __webpack_require__(266),
-  setSeconds: __webpack_require__(267),
-  setYear: __webpack_require__(268),
-  startOfDay: __webpack_require__(126),
-  startOfHour: __webpack_require__(167),
-  startOfISOWeek: __webpack_require__(125),
-  startOfISOYear: __webpack_require__(129),
-  startOfMinute: __webpack_require__(171),
-  startOfMonth: __webpack_require__(269),
-  startOfQuarter: __webpack_require__(174),
-  startOfSecond: __webpack_require__(176),
-  startOfToday: __webpack_require__(270),
-  startOfTomorrow: __webpack_require__(271),
-  startOfWeek: __webpack_require__(131),
-  startOfYear: __webpack_require__(162),
-  startOfYesterday: __webpack_require__(272),
-  subDays: __webpack_require__(273),
-  subHours: __webpack_require__(274),
-  subISOYears: __webpack_require__(157),
-  subMilliseconds: __webpack_require__(275),
-  subMinutes: __webpack_require__(276),
-  subMonths: __webpack_require__(277),
-  subQuarters: __webpack_require__(278),
-  subSeconds: __webpack_require__(279),
-  subWeeks: __webpack_require__(280),
-  subYears: __webpack_require__(281)
+  addDays: __webpack_require__(4),
+  addHours: __webpack_require__(22),
+  addISOYears: __webpack_require__(23),
+  addMilliseconds: __webpack_require__(5),
+  addMinutes: __webpack_require__(25),
+  addMonths: __webpack_require__(10),
+  addQuarters: __webpack_require__(26),
+  addSeconds: __webpack_require__(27),
+  addWeeks: __webpack_require__(14),
+  addYears: __webpack_require__(28),
+  areRangesOverlapping: __webpack_require__(60),
+  closestIndexTo: __webpack_require__(61),
+  closestTo: __webpack_require__(62),
+  compareAsc: __webpack_require__(7),
+  compareDesc: __webpack_require__(15),
+  differenceInCalendarDays: __webpack_require__(9),
+  differenceInCalendarISOWeeks: __webpack_require__(63),
+  differenceInCalendarISOYears: __webpack_require__(29),
+  differenceInCalendarMonths: __webpack_require__(30),
+  differenceInCalendarQuarters: __webpack_require__(64),
+  differenceInCalendarWeeks: __webpack_require__(65),
+  differenceInCalendarYears: __webpack_require__(32),
+  differenceInDays: __webpack_require__(33),
+  differenceInHours: __webpack_require__(66),
+  differenceInISOYears: __webpack_require__(67),
+  differenceInMilliseconds: __webpack_require__(11),
+  differenceInMinutes: __webpack_require__(68),
+  differenceInMonths: __webpack_require__(16),
+  differenceInQuarters: __webpack_require__(69),
+  differenceInSeconds: __webpack_require__(17),
+  differenceInWeeks: __webpack_require__(70),
+  differenceInYears: __webpack_require__(71),
+  distanceInWords: __webpack_require__(35),
+  distanceInWordsStrict: __webpack_require__(75),
+  distanceInWordsToNow: __webpack_require__(76),
+  eachDay: __webpack_require__(77),
+  endOfDay: __webpack_require__(19),
+  endOfHour: __webpack_require__(78),
+  endOfISOWeek: __webpack_require__(79),
+  endOfISOYear: __webpack_require__(80),
+  endOfMinute: __webpack_require__(81),
+  endOfMonth: __webpack_require__(37),
+  endOfQuarter: __webpack_require__(82),
+  endOfSecond: __webpack_require__(83),
+  endOfToday: __webpack_require__(84),
+  endOfTomorrow: __webpack_require__(85),
+  endOfWeek: __webpack_require__(36),
+  endOfYear: __webpack_require__(86),
+  endOfYesterday: __webpack_require__(87),
+  format: __webpack_require__(88),
+  getDate: __webpack_require__(89),
+  getDay: __webpack_require__(90),
+  getDayOfYear: __webpack_require__(38),
+  getDaysInMonth: __webpack_require__(13),
+  getDaysInYear: __webpack_require__(91),
+  getHours: __webpack_require__(92),
+  getISODay: __webpack_require__(42),
+  getISOWeek: __webpack_require__(20),
+  getISOWeeksInYear: __webpack_require__(93),
+  getISOYear: __webpack_require__(1),
+  getMilliseconds: __webpack_require__(94),
+  getMinutes: __webpack_require__(95),
+  getMonth: __webpack_require__(96),
+  getOverlappingDaysInRanges: __webpack_require__(97),
+  getQuarter: __webpack_require__(31),
+  getSeconds: __webpack_require__(98),
+  getTime: __webpack_require__(99),
+  getYear: __webpack_require__(100),
+  isAfter: __webpack_require__(101),
+  isBefore: __webpack_require__(102),
+  isDate: __webpack_require__(12),
+  isEqual: __webpack_require__(103),
+  isFirstDayOfMonth: __webpack_require__(104),
+  isFriday: __webpack_require__(105),
+  isFuture: __webpack_require__(106),
+  isLastDayOfMonth: __webpack_require__(107),
+  isLeapYear: __webpack_require__(41),
+  isMonday: __webpack_require__(108),
+  isPast: __webpack_require__(109),
+  isSameDay: __webpack_require__(110),
+  isSameHour: __webpack_require__(43),
+  isSameISOWeek: __webpack_require__(45),
+  isSameISOYear: __webpack_require__(46),
+  isSameMinute: __webpack_require__(47),
+  isSameMonth: __webpack_require__(49),
+  isSameQuarter: __webpack_require__(50),
+  isSameSecond: __webpack_require__(52),
+  isSameWeek: __webpack_require__(21),
+  isSameYear: __webpack_require__(54),
+  isSaturday: __webpack_require__(111),
+  isSunday: __webpack_require__(112),
+  isThisHour: __webpack_require__(113),
+  isThisISOWeek: __webpack_require__(114),
+  isThisISOYear: __webpack_require__(115),
+  isThisMinute: __webpack_require__(116),
+  isThisMonth: __webpack_require__(117),
+  isThisQuarter: __webpack_require__(118),
+  isThisSecond: __webpack_require__(119),
+  isThisWeek: __webpack_require__(120),
+  isThisYear: __webpack_require__(121),
+  isThursday: __webpack_require__(122),
+  isToday: __webpack_require__(123),
+  isTomorrow: __webpack_require__(124),
+  isTuesday: __webpack_require__(125),
+  isValid: __webpack_require__(40),
+  isWednesday: __webpack_require__(126),
+  isWeekend: __webpack_require__(127),
+  isWithinRange: __webpack_require__(128),
+  isYesterday: __webpack_require__(129),
+  lastDayOfISOWeek: __webpack_require__(130),
+  lastDayOfISOYear: __webpack_require__(131),
+  lastDayOfMonth: __webpack_require__(132),
+  lastDayOfQuarter: __webpack_require__(133),
+  lastDayOfWeek: __webpack_require__(55),
+  lastDayOfYear: __webpack_require__(134),
+  max: __webpack_require__(135),
+  min: __webpack_require__(136),
+  parse: __webpack_require__(0),
+  setDate: __webpack_require__(137),
+  setDay: __webpack_require__(138),
+  setDayOfYear: __webpack_require__(139),
+  setHours: __webpack_require__(140),
+  setISODay: __webpack_require__(141),
+  setISOWeek: __webpack_require__(142),
+  setISOYear: __webpack_require__(24),
+  setMilliseconds: __webpack_require__(143),
+  setMinutes: __webpack_require__(144),
+  setMonth: __webpack_require__(56),
+  setQuarter: __webpack_require__(145),
+  setSeconds: __webpack_require__(146),
+  setYear: __webpack_require__(147),
+  startOfDay: __webpack_require__(3),
+  startOfHour: __webpack_require__(44),
+  startOfISOWeek: __webpack_require__(2),
+  startOfISOYear: __webpack_require__(6),
+  startOfMinute: __webpack_require__(48),
+  startOfMonth: __webpack_require__(148),
+  startOfQuarter: __webpack_require__(51),
+  startOfSecond: __webpack_require__(53),
+  startOfToday: __webpack_require__(149),
+  startOfTomorrow: __webpack_require__(150),
+  startOfWeek: __webpack_require__(8),
+  startOfYear: __webpack_require__(39),
+  startOfYesterday: __webpack_require__(151),
+  subDays: __webpack_require__(152),
+  subHours: __webpack_require__(153),
+  subISOYears: __webpack_require__(34),
+  subMilliseconds: __webpack_require__(154),
+  subMinutes: __webpack_require__(155),
+  subMonths: __webpack_require__(156),
+  subQuarters: __webpack_require__(157),
+  subSeconds: __webpack_require__(158),
+  subWeeks: __webpack_require__(159),
+  subYears: __webpack_require__(160)
 }
 
 
 /***/ }),
-/* 181 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Range Helpers
@@ -2949,10 +2963,10 @@ module.exports = areRangesOverlapping
 
 
 /***/ }),
-/* 182 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Common Helpers
@@ -3004,10 +3018,10 @@ module.exports = closestIndexTo
 
 
 /***/ }),
-/* 183 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Common Helpers
@@ -3057,10 +3071,10 @@ module.exports = closestTo
 
 
 /***/ }),
-/* 184 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfISOWeek = __webpack_require__(125)
+var startOfISOWeek = __webpack_require__(2)
 
 var MILLISECONDS_IN_MINUTE = 60000
 var MILLISECONDS_IN_WEEK = 604800000
@@ -3105,11 +3119,11 @@ module.exports = differenceInCalendarISOWeeks
 
 
 /***/ }),
-/* 185 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getQuarter = __webpack_require__(154)
-var parse = __webpack_require__(123)
+var getQuarter = __webpack_require__(31)
+var parse = __webpack_require__(0)
 
 /**
  * @category Quarter Helpers
@@ -3144,10 +3158,10 @@ module.exports = differenceInCalendarQuarters
 
 
 /***/ }),
-/* 186 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfWeek = __webpack_require__(131)
+var startOfWeek = __webpack_require__(8)
 
 var MILLISECONDS_IN_MINUTE = 60000
 var MILLISECONDS_IN_WEEK = 604800000
@@ -3202,10 +3216,10 @@ module.exports = differenceInCalendarWeeks
 
 
 /***/ }),
-/* 187 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var differenceInMilliseconds = __webpack_require__(134)
+var differenceInMilliseconds = __webpack_require__(11)
 
 var MILLISECONDS_IN_HOUR = 3600000
 
@@ -3237,13 +3251,13 @@ module.exports = differenceInHours
 
 
 /***/ }),
-/* 188 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var differenceInCalendarISOYears = __webpack_require__(152)
-var compareAsc = __webpack_require__(130)
-var subISOYears = __webpack_require__(157)
+var parse = __webpack_require__(0)
+var differenceInCalendarISOYears = __webpack_require__(29)
+var compareAsc = __webpack_require__(7)
+var subISOYears = __webpack_require__(34)
 
 /**
  * @category ISO Week-Numbering Year Helpers
@@ -3285,10 +3299,10 @@ module.exports = differenceInISOYears
 
 
 /***/ }),
-/* 189 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var differenceInMilliseconds = __webpack_require__(134)
+var differenceInMilliseconds = __webpack_require__(11)
 
 var MILLISECONDS_IN_MINUTE = 60000
 
@@ -3320,10 +3334,10 @@ module.exports = differenceInMinutes
 
 
 /***/ }),
-/* 190 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var differenceInMonths = __webpack_require__(139)
+var differenceInMonths = __webpack_require__(16)
 
 /**
  * @category Quarter Helpers
@@ -3353,10 +3367,10 @@ module.exports = differenceInQuarters
 
 
 /***/ }),
-/* 191 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var differenceInDays = __webpack_require__(156)
+var differenceInDays = __webpack_require__(33)
 
 /**
  * @category Week Helpers
@@ -3386,12 +3400,12 @@ module.exports = differenceInWeeks
 
 
 /***/ }),
-/* 192 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var differenceInCalendarYears = __webpack_require__(155)
-var compareAsc = __webpack_require__(130)
+var parse = __webpack_require__(0)
+var differenceInCalendarYears = __webpack_require__(32)
+var compareAsc = __webpack_require__(7)
 
 /**
  * @category Year Helpers
@@ -3430,7 +3444,7 @@ module.exports = differenceInYears
 
 
 /***/ }),
-/* 193 */
+/* 72 */
 /***/ (function(module, exports) {
 
 function buildDistanceInWordsLocale () {
@@ -3535,10 +3549,10 @@ module.exports = buildDistanceInWordsLocale
 
 
 /***/ }),
-/* 194 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var buildFormattingTokensRegExp = __webpack_require__(195)
+var buildFormattingTokensRegExp = __webpack_require__(74)
 
 function buildFormatLocale () {
   // Note: in English, the names of days of the week and months are capitalized.
@@ -3629,7 +3643,7 @@ module.exports = buildFormatLocale
 
 
 /***/ }),
-/* 195 */
+/* 74 */
 /***/ (function(module, exports) {
 
 var commonFormatterKeys = [
@@ -3663,13 +3677,13 @@ module.exports = buildFormattingTokensRegExp
 
 
 /***/ }),
-/* 196 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var compareDesc = __webpack_require__(138)
-var parse = __webpack_require__(123)
-var differenceInSeconds = __webpack_require__(140)
-var enLocale = __webpack_require__(141)
+var compareDesc = __webpack_require__(15)
+var parse = __webpack_require__(0)
+var differenceInSeconds = __webpack_require__(17)
+var enLocale = __webpack_require__(18)
 
 var MINUTES_IN_DAY = 1440
 var MINUTES_IN_MONTH = 43200
@@ -3845,10 +3859,10 @@ module.exports = distanceInWordsStrict
 
 
 /***/ }),
-/* 197 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var distanceInWords = __webpack_require__(158)
+var distanceInWords = __webpack_require__(35)
 
 /**
  * @category Common Helpers
@@ -3936,10 +3950,10 @@ module.exports = distanceInWordsToNow
 
 
 /***/ }),
-/* 198 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Day Helpers
@@ -3996,10 +4010,10 @@ module.exports = eachDay
 
 
 /***/ }),
-/* 199 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Hour Helpers
@@ -4027,10 +4041,10 @@ module.exports = endOfHour
 
 
 /***/ }),
-/* 200 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var endOfWeek = __webpack_require__(159)
+var endOfWeek = __webpack_require__(36)
 
 /**
  * @category ISO Week Helpers
@@ -4058,11 +4072,11 @@ module.exports = endOfISOWeek
 
 
 /***/ }),
-/* 201 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getISOYear = __webpack_require__(124)
-var startOfISOWeek = __webpack_require__(125)
+var getISOYear = __webpack_require__(1)
+var startOfISOWeek = __webpack_require__(2)
 
 /**
  * @category ISO Week-Numbering Year Helpers
@@ -4097,10 +4111,10 @@ module.exports = endOfISOYear
 
 
 /***/ }),
-/* 202 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Minute Helpers
@@ -4128,10 +4142,10 @@ module.exports = endOfMinute
 
 
 /***/ }),
-/* 203 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Quarter Helpers
@@ -4162,10 +4176,10 @@ module.exports = endOfQuarter
 
 
 /***/ }),
-/* 204 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Second Helpers
@@ -4193,10 +4207,10 @@ module.exports = endOfSecond
 
 
 /***/ }),
-/* 205 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var endOfDay = __webpack_require__(142)
+var endOfDay = __webpack_require__(19)
 
 /**
  * @category Day Helpers
@@ -4220,7 +4234,7 @@ module.exports = endOfToday
 
 
 /***/ }),
-/* 206 */
+/* 85 */
 /***/ (function(module, exports) {
 
 /**
@@ -4253,10 +4267,10 @@ module.exports = endOfTomorrow
 
 
 /***/ }),
-/* 207 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Year Helpers
@@ -4286,7 +4300,7 @@ module.exports = endOfYear
 
 
 /***/ }),
-/* 208 */
+/* 87 */
 /***/ (function(module, exports) {
 
 /**
@@ -4319,15 +4333,15 @@ module.exports = endOfYesterday
 
 
 /***/ }),
-/* 209 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getDayOfYear = __webpack_require__(161)
-var getISOWeek = __webpack_require__(143)
-var getISOYear = __webpack_require__(124)
-var parse = __webpack_require__(123)
-var isValid = __webpack_require__(163)
-var enLocale = __webpack_require__(141)
+var getDayOfYear = __webpack_require__(38)
+var getISOWeek = __webpack_require__(20)
+var getISOYear = __webpack_require__(1)
+var parse = __webpack_require__(0)
+var isValid = __webpack_require__(40)
+var enLocale = __webpack_require__(18)
 
 /**
  * @category Common Helpers
@@ -4653,10 +4667,10 @@ module.exports = format
 
 
 /***/ }),
-/* 210 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Day Helpers
@@ -4683,10 +4697,10 @@ module.exports = getDate
 
 
 /***/ }),
-/* 211 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Weekday Helpers
@@ -4713,10 +4727,10 @@ module.exports = getDay
 
 
 /***/ }),
-/* 212 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isLeapYear = __webpack_require__(164)
+var isLeapYear = __webpack_require__(41)
 
 /**
  * @category Year Helpers
@@ -4741,10 +4755,10 @@ module.exports = getDaysInYear
 
 
 /***/ }),
-/* 213 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Hour Helpers
@@ -4771,11 +4785,11 @@ module.exports = getHours
 
 
 /***/ }),
-/* 214 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfISOYear = __webpack_require__(129)
-var addWeeks = __webpack_require__(137)
+var startOfISOYear = __webpack_require__(6)
+var addWeeks = __webpack_require__(14)
 
 var MILLISECONDS_IN_WEEK = 604800000
 
@@ -4810,10 +4824,10 @@ module.exports = getISOWeeksInYear
 
 
 /***/ }),
-/* 215 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Millisecond Helpers
@@ -4840,10 +4854,10 @@ module.exports = getMilliseconds
 
 
 /***/ }),
-/* 216 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Minute Helpers
@@ -4870,10 +4884,10 @@ module.exports = getMinutes
 
 
 /***/ }),
-/* 217 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Month Helpers
@@ -4900,10 +4914,10 @@ module.exports = getMonth
 
 
 /***/ }),
-/* 218 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 var MILLISECONDS_IN_DAY = 24 * 60 * 60 * 1000
 
@@ -4968,10 +4982,10 @@ module.exports = getOverlappingDaysInRanges
 
 
 /***/ }),
-/* 219 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Second Helpers
@@ -4998,10 +5012,10 @@ module.exports = getSeconds
 
 
 /***/ }),
-/* 220 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Timestamp Helpers
@@ -5028,10 +5042,10 @@ module.exports = getTime
 
 
 /***/ }),
-/* 221 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Year Helpers
@@ -5058,10 +5072,10 @@ module.exports = getYear
 
 
 /***/ }),
-/* 222 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Common Helpers
@@ -5089,10 +5103,10 @@ module.exports = isAfter
 
 
 /***/ }),
-/* 223 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Common Helpers
@@ -5120,10 +5134,10 @@ module.exports = isBefore
 
 
 /***/ }),
-/* 224 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Common Helpers
@@ -5154,10 +5168,10 @@ module.exports = isEqual
 
 
 /***/ }),
-/* 225 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Month Helpers
@@ -5182,10 +5196,10 @@ module.exports = isFirstDayOfMonth
 
 
 /***/ }),
-/* 226 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Weekday Helpers
@@ -5210,10 +5224,10 @@ module.exports = isFriday
 
 
 /***/ }),
-/* 227 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Common Helpers
@@ -5238,12 +5252,12 @@ module.exports = isFuture
 
 
 /***/ }),
-/* 228 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var endOfDay = __webpack_require__(142)
-var endOfMonth = __webpack_require__(160)
+var parse = __webpack_require__(0)
+var endOfDay = __webpack_require__(19)
+var endOfMonth = __webpack_require__(37)
 
 /**
  * @category Month Helpers
@@ -5269,10 +5283,10 @@ module.exports = isLastDayOfMonth
 
 
 /***/ }),
-/* 229 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Weekday Helpers
@@ -5297,10 +5311,10 @@ module.exports = isMonday
 
 
 /***/ }),
-/* 230 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Common Helpers
@@ -5325,10 +5339,10 @@ module.exports = isPast
 
 
 /***/ }),
-/* 231 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfDay = __webpack_require__(126)
+var startOfDay = __webpack_require__(3)
 
 /**
  * @category Day Helpers
@@ -5360,10 +5374,10 @@ module.exports = isSameDay
 
 
 /***/ }),
-/* 232 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Weekday Helpers
@@ -5388,10 +5402,10 @@ module.exports = isSaturday
 
 
 /***/ }),
-/* 233 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Weekday Helpers
@@ -5416,10 +5430,10 @@ module.exports = isSunday
 
 
 /***/ }),
-/* 234 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isSameHour = __webpack_require__(166)
+var isSameHour = __webpack_require__(43)
 
 /**
  * @category Hour Helpers
@@ -5445,10 +5459,10 @@ module.exports = isThisHour
 
 
 /***/ }),
-/* 235 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isSameISOWeek = __webpack_require__(168)
+var isSameISOWeek = __webpack_require__(45)
 
 /**
  * @category ISO Week Helpers
@@ -5475,10 +5489,10 @@ module.exports = isThisISOWeek
 
 
 /***/ }),
-/* 236 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isSameISOYear = __webpack_require__(169)
+var isSameISOYear = __webpack_require__(46)
 
 /**
  * @category ISO Week-Numbering Year Helpers
@@ -5506,10 +5520,10 @@ module.exports = isThisISOYear
 
 
 /***/ }),
-/* 237 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isSameMinute = __webpack_require__(170)
+var isSameMinute = __webpack_require__(47)
 
 /**
  * @category Minute Helpers
@@ -5535,10 +5549,10 @@ module.exports = isThisMinute
 
 
 /***/ }),
-/* 238 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isSameMonth = __webpack_require__(172)
+var isSameMonth = __webpack_require__(49)
 
 /**
  * @category Month Helpers
@@ -5563,10 +5577,10 @@ module.exports = isThisMonth
 
 
 /***/ }),
-/* 239 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isSameQuarter = __webpack_require__(173)
+var isSameQuarter = __webpack_require__(50)
 
 /**
  * @category Quarter Helpers
@@ -5591,10 +5605,10 @@ module.exports = isThisQuarter
 
 
 /***/ }),
-/* 240 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isSameSecond = __webpack_require__(175)
+var isSameSecond = __webpack_require__(52)
 
 /**
  * @category Second Helpers
@@ -5620,10 +5634,10 @@ module.exports = isThisSecond
 
 
 /***/ }),
-/* 241 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isSameWeek = __webpack_require__(144)
+var isSameWeek = __webpack_require__(21)
 
 /**
  * @category Week Helpers
@@ -5656,10 +5670,10 @@ module.exports = isThisWeek
 
 
 /***/ }),
-/* 242 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isSameYear = __webpack_require__(177)
+var isSameYear = __webpack_require__(54)
 
 /**
  * @category Year Helpers
@@ -5684,10 +5698,10 @@ module.exports = isThisYear
 
 
 /***/ }),
-/* 243 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Weekday Helpers
@@ -5712,10 +5726,10 @@ module.exports = isThursday
 
 
 /***/ }),
-/* 244 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfDay = __webpack_require__(126)
+var startOfDay = __webpack_require__(3)
 
 /**
  * @category Day Helpers
@@ -5740,10 +5754,10 @@ module.exports = isToday
 
 
 /***/ }),
-/* 245 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfDay = __webpack_require__(126)
+var startOfDay = __webpack_require__(3)
 
 /**
  * @category Day Helpers
@@ -5770,10 +5784,10 @@ module.exports = isTomorrow
 
 
 /***/ }),
-/* 246 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Weekday Helpers
@@ -5798,10 +5812,10 @@ module.exports = isTuesday
 
 
 /***/ }),
-/* 247 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Weekday Helpers
@@ -5826,10 +5840,10 @@ module.exports = isWednesday
 
 
 /***/ }),
-/* 248 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Weekday Helpers
@@ -5856,10 +5870,10 @@ module.exports = isWeekend
 
 
 /***/ }),
-/* 249 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Range Helpers
@@ -5904,10 +5918,10 @@ module.exports = isWithinRange
 
 
 /***/ }),
-/* 250 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfDay = __webpack_require__(126)
+var startOfDay = __webpack_require__(3)
 
 /**
  * @category Day Helpers
@@ -5934,10 +5948,10 @@ module.exports = isYesterday
 
 
 /***/ }),
-/* 251 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var lastDayOfWeek = __webpack_require__(178)
+var lastDayOfWeek = __webpack_require__(55)
 
 /**
  * @category ISO Week Helpers
@@ -5965,11 +5979,11 @@ module.exports = lastDayOfISOWeek
 
 
 /***/ }),
-/* 252 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getISOYear = __webpack_require__(124)
-var startOfISOWeek = __webpack_require__(125)
+var getISOYear = __webpack_require__(1)
+var startOfISOWeek = __webpack_require__(2)
 
 /**
  * @category ISO Week-Numbering Year Helpers
@@ -6004,10 +6018,10 @@ module.exports = lastDayOfISOYear
 
 
 /***/ }),
-/* 253 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Month Helpers
@@ -6037,10 +6051,10 @@ module.exports = lastDayOfMonth
 
 
 /***/ }),
-/* 254 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Quarter Helpers
@@ -6071,10 +6085,10 @@ module.exports = lastDayOfQuarter
 
 
 /***/ }),
-/* 255 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Year Helpers
@@ -6104,10 +6118,10 @@ module.exports = lastDayOfYear
 
 
 /***/ }),
-/* 256 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Common Helpers
@@ -6142,10 +6156,10 @@ module.exports = max
 
 
 /***/ }),
-/* 257 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Common Helpers
@@ -6180,10 +6194,10 @@ module.exports = min
 
 
 /***/ }),
-/* 258 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Day Helpers
@@ -6212,11 +6226,11 @@ module.exports = setDate
 
 
 /***/ }),
-/* 259 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var addDays = __webpack_require__(127)
+var parse = __webpack_require__(0)
+var addDays = __webpack_require__(4)
 
 /**
  * @category Weekday Helpers
@@ -6258,10 +6272,10 @@ module.exports = setDay
 
 
 /***/ }),
-/* 260 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Day Helpers
@@ -6291,10 +6305,10 @@ module.exports = setDayOfYear
 
 
 /***/ }),
-/* 261 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Hour Helpers
@@ -6323,12 +6337,12 @@ module.exports = setHours
 
 
 /***/ }),
-/* 262 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var addDays = __webpack_require__(127)
-var getISODay = __webpack_require__(165)
+var parse = __webpack_require__(0)
+var addDays = __webpack_require__(4)
+var getISODay = __webpack_require__(42)
 
 /**
  * @category Weekday Helpers
@@ -6360,11 +6374,11 @@ module.exports = setISODay
 
 
 /***/ }),
-/* 263 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var getISOWeek = __webpack_require__(143)
+var parse = __webpack_require__(0)
+var getISOWeek = __webpack_require__(20)
 
 /**
  * @category ISO Week Helpers
@@ -6396,10 +6410,10 @@ module.exports = setISOWeek
 
 
 /***/ }),
-/* 264 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Millisecond Helpers
@@ -6428,10 +6442,10 @@ module.exports = setMilliseconds
 
 
 /***/ }),
-/* 265 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Minute Helpers
@@ -6460,11 +6474,11 @@ module.exports = setMinutes
 
 
 /***/ }),
-/* 266 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
-var setMonth = __webpack_require__(179)
+var parse = __webpack_require__(0)
+var setMonth = __webpack_require__(56)
 
 /**
  * @category Quarter Helpers
@@ -6494,10 +6508,10 @@ module.exports = setQuarter
 
 
 /***/ }),
-/* 267 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Second Helpers
@@ -6526,10 +6540,10 @@ module.exports = setSeconds
 
 
 /***/ }),
-/* 268 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Year Helpers
@@ -6558,10 +6572,10 @@ module.exports = setYear
 
 
 /***/ }),
-/* 269 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var parse = __webpack_require__(123)
+var parse = __webpack_require__(0)
 
 /**
  * @category Month Helpers
@@ -6590,10 +6604,10 @@ module.exports = startOfMonth
 
 
 /***/ }),
-/* 270 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var startOfDay = __webpack_require__(126)
+var startOfDay = __webpack_require__(3)
 
 /**
  * @category Day Helpers
@@ -6617,7 +6631,7 @@ module.exports = startOfToday
 
 
 /***/ }),
-/* 271 */
+/* 150 */
 /***/ (function(module, exports) {
 
 /**
@@ -6650,7 +6664,7 @@ module.exports = startOfTomorrow
 
 
 /***/ }),
-/* 272 */
+/* 151 */
 /***/ (function(module, exports) {
 
 /**
@@ -6683,10 +6697,10 @@ module.exports = startOfYesterday
 
 
 /***/ }),
-/* 273 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addDays = __webpack_require__(127)
+var addDays = __webpack_require__(4)
 
 /**
  * @category Day Helpers
@@ -6713,10 +6727,10 @@ module.exports = subDays
 
 
 /***/ }),
-/* 274 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addHours = __webpack_require__(145)
+var addHours = __webpack_require__(22)
 
 /**
  * @category Hour Helpers
@@ -6743,10 +6757,10 @@ module.exports = subHours
 
 
 /***/ }),
-/* 275 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addMilliseconds = __webpack_require__(128)
+var addMilliseconds = __webpack_require__(5)
 
 /**
  * @category Millisecond Helpers
@@ -6773,10 +6787,10 @@ module.exports = subMilliseconds
 
 
 /***/ }),
-/* 276 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addMinutes = __webpack_require__(148)
+var addMinutes = __webpack_require__(25)
 
 /**
  * @category Minute Helpers
@@ -6803,10 +6817,10 @@ module.exports = subMinutes
 
 
 /***/ }),
-/* 277 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addMonths = __webpack_require__(133)
+var addMonths = __webpack_require__(10)
 
 /**
  * @category Month Helpers
@@ -6833,10 +6847,10 @@ module.exports = subMonths
 
 
 /***/ }),
-/* 278 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addQuarters = __webpack_require__(149)
+var addQuarters = __webpack_require__(26)
 
 /**
  * @category Quarter Helpers
@@ -6863,10 +6877,10 @@ module.exports = subQuarters
 
 
 /***/ }),
-/* 279 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addSeconds = __webpack_require__(150)
+var addSeconds = __webpack_require__(27)
 
 /**
  * @category Second Helpers
@@ -6893,10 +6907,10 @@ module.exports = subSeconds
 
 
 /***/ }),
-/* 280 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addWeeks = __webpack_require__(137)
+var addWeeks = __webpack_require__(14)
 
 /**
  * @category Week Helpers
@@ -6923,10 +6937,10 @@ module.exports = subWeeks
 
 
 /***/ }),
-/* 281 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var addYears = __webpack_require__(151)
+var addYears = __webpack_require__(28)
 
 /**
  * @category Year Helpers
@@ -6953,79 +6967,16 @@ module.exports = subYears
 
 
 /***/ }),
-/* 282 */
+/* 161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony export testFunction */
-function testFunction(){
-  console.log("dope man");
-}
-
-class ToDo {
-  constructor(title, description, dueDate, priority) {
-    this.title = title;
-    this.description = description;
-    this.dueDate = dueDate;
-    this.priority = priority;
-    this.completed = false;
-  }
-
-  generateDOMItem() {
-    const item = document.createElement('div');
-    item.classList.add('todo');
-
-    const title = document.createElement('h4');
-    item.appendChild(title);
-    title.textContent = this.title;
-
-    const dueDate = document.createElement('h5');
-    item.appendChild(dueDate);
-    dueDate.textContent = this.dueDate;
-
-    const details = document.createElement('div');
-    details.classList.add('details');
-    item.appendChild(details);
-    details.textContent = this.details;
-
-    const description = document.createElement('p');
-    details.appendChild(description);
-    description.textContent = this.description;
-
-    const deleteButton = document.createElement('button');
-    deleteButton.classList.add('delete');
-    deleteButton.textContent = "Delete";
-    details.appendChild(deleteButton);
-    deleteButton.addEventListener("click",removeElement);
-
-
-    return item;
-  }
-
-}
-/* harmony export (immutable) */ __webpack_exports__["a"] = ToDo;
-
-
-
-function removeElement(e){
-  let todo = e.target.parentNode.parentNode;
-  let project = todo.parentNode;
-  project.removeChild(todo);
-  
-}
-
-
-/***/ }),
-/* 283 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__todo_js__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__todo_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__todo_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__todo_js__ = __webpack_require__(57);
 
 
 class Project {
-  constructor(name) {
+  constructor(id,name) {
+    this.id = id;
     this.name = name;
     this.todos = [];
   }
@@ -7051,13 +7002,19 @@ class Project {
     let i = 0;
     this.todos.forEach(function(todo){
       let x = todo.generateDOMItem();
-      x.dataset.id = i;
-      i++; 
-      console.log(x);
+      x.dataset.id = todo.id;
+      i++;
       item.appendChild(x);
     })
+
+    const newToDoForm = document.createElement('form');
+    newToDoForm.id = 'todoform';
+    newToDoForm.innerHTML = '<br><h3>New To Do:</h3><form id="projectForm"><input type="text" name="title" placeholder="title"><input type="text" name="description" placeholder="description"><input type="date" name="due date" placeholder=""><input type="number" name="priority" placeholder="priority"><button type="submit">Submit</button><button type="button" id="cancelForm">Cancel</button></form>'
+    item.appendChild(newToDoForm);
     return item;
   }
+
+
 
 
 }

@@ -8,7 +8,23 @@
 </head>
 <body>
   <h1>Welcome to Project Manager</h1>
-  <div class="container"></div>
+  <h3>Create a New Project:</h3>
+  <form id="projectForm">
+    <input type="text" name="name" placeholder="name">
+    <button type="submit">Submit</button>
+    <button type="button" id="cancelForm">Cancel</button>
+  </form>
+  <br>
+  <h3>Or:</h3>
+  <br>
+  <form id="projectSelector">
+    <label>Select a Project:</label>
+    <select id="selectProject">
+    </select>
+  </form>
+  <div class="container">
+
+  </div>
   <script src="bundle.js"></script>
 </body>
 </html>

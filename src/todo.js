@@ -3,12 +3,25 @@ export function testFunction(){
 }
 
 export class ToDo {
-  constructor(title, description, dueDate, priority) {
+  constructor(id, title, description, dueDate, priority) {
+    this.id = id;
     this.title = title;
     this.description = description;
     this.dueDate = dueDate;
     this.priority = priority;
     this.completed = false;
+  }
+
+  complete() {
+    if (!this.completed) {
+      this.completed = true;
+    }
+  }
+
+  uncomplete() {
+    if (this.completed) {
+      this.completed = false;
+    }
   }
 
   generateDOMItem() {
@@ -36,18 +49,23 @@ export class ToDo {
     deleteButton.classList.add('delete');
     deleteButton.textContent = "Delete";
     details.appendChild(deleteButton);
-    deleteButton.addEventListener("click",removeElement);
 
+    const toggleComplete = document.createElement('button');
+    if (!this.completed){
+      toggleComplete.classList.add('incomplete');
+      toggleComplete.textContent = "Click to Complete";
+      details.appendChild(toggleComplete);
+    } else if (this.completed) {
+      toggleComplete.classList.add('complete');
+      toggleComplete.textContent = "Click to make Incomplete";
+      details.appendChild(toggleComplete);
+    }
 
     return item;
   }
 
-}
 
 
-function removeElement(e){
-  let todo = e.target.parentNode.parentNode;
-  let project = todo.parentNode;
-  project.removeChild(todo);
-  
+
+
 }
