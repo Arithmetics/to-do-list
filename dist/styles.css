@@ -10,3 +10,11 @@
 .hidden {
   display: none;
 }
+
+.complete {
+  background-color: green;
+}
+
+.incomplete {
+  background-color: red;
+}
