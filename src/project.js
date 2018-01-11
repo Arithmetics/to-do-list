@@ -31,6 +31,16 @@ export class Project {
     return matchingToDo;
   }
 
+  nextToDoId(id){
+    let highest = 0;
+    this.todos.forEach(function(todo){
+      if (todo.id > highest){
+        highest = todo.id;
+      }
+    })
+    return highest + 1;
+  }
+
 
 
 }
